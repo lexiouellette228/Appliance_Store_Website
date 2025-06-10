@@ -29,7 +29,7 @@ This is the official website for **Gross Appliance & TV, Inc.**, a family-owned 
 
 ## Inventory Management
 
-Inventory is maintained by adding or replacing image files in the `public/` folder:
+Inventory is maintained by adding or replacing image files in the `public/` folder (modified):
 - Furniture: `/public/furniture/`
 - Kitchen Appliances: `/public/kitchen/`
 - Bedding: `/public/bedding/`
