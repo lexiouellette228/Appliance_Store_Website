@@ -1,0 +1,37 @@
+/* Modern Navbar Styling */
+.custom-navbar {
+  background-color: #ece8e8; /* White Background */
+  padding: 10px 0;
+  border-bottom: 3px solid #e1dfdf; /* Subtle Bottom Border */
+}
+
+.nav-links .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333; /* Dark Gray */
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+}
+
+.nav-links .nav-link:hover {
+  color: #07198a; /* Highlight on hover */
+  text-decoration: underline;
+}
+
+.nav-links .active-link {
+  font-weight: bold;
+  color: #07198a; /* Active page styling */
+  border-bottom: 2px solid #07198a; /* Underline effect */
+}
+
+/* Mobile Styling */
+@media (max-width: 992px) {
+  .nav-links {
+    text-align: center;
+  }
+
+  .nav-links .nav-link {
+    display: block;
+    padding: 10px;
+  }
+}
