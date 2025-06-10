@@ -1,0 +1,91 @@
+/* Hero Section */
+  .hero-section .overlay {
+    background-color: rgba(145, 142, 142, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-title {
+    font-size: 45px;
+    font-weight: light;
+    color: #ffffff;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px;
+    font-weight: light;
+    color: #ffffff;
+  }
+  
+  /* About Section */
+  .about-heading {
+    color:  #000f73;
+  }
+  
+  .about-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  
+  /* Call-To-Action Button */
+  .about-button {
+    background-color:  #000f73;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  
+  .about-button:hover {
+    background-color: #000f73;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .feature-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-icon {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  /* 📍 Footer */
+  .icon-style {
+    color:  #000f73;
+  }
+  
+  .footer-title {
+    color:  #000f73;
+    font-weight: bold;
+  }
+  
+  .footer-text {
+    color:  #000f73;
+  }
+  
+  .logo-img {
+    max-width: 250px;
+  }
+  

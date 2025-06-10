@@ -1,0 +1,23 @@
+.header-txt {
+     /* Change this value for desired font size *
+     /* Optional */
+    color: #000f73; /* Optional: Adjust text color */
+  }
+
+  .card-img-overlay {
+    background: rgba(49, 49, 49, 0.3); /* Optional: Dark overlay for better contrast */
+  }
+  
+  .card-img-overlay h1 {
+    font-size: 3rem; /* Make "Our Story" larger */
+  }
+  
+  .card-img-overlay hr {
+    border-top: 3px solid white; /* Make the underline visible */
+    margin: 10px 0;
+  }
+  
+  .card-img-overlay p {
+    font-size: 1.2rem;
+  }
+  

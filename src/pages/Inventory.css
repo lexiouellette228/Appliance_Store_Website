@@ -1,0 +1,71 @@
+.category-box {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .category-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .clickable:hover {
+    transform: scale(1.05);
+  }
+
+  .fixed-box {
+    width: 100%;         /* Makes the box responsive */
+    height: 100%;       /* Ensures all boxes are the same height */
+    display: flex;       /* Enables centering */
+    align-items: center; /* Centers image vertically */
+    justify-content: center; /* Centers image horizontally */
+    /* Adds a background if images don't fully cover the space */
+    border-radius: 10px; /* Optional rounded corners */
+    overflow: hidden; /* Ensures no extra spacing */
+  }
+  
+  .fixed-size-img {
+    max-width: 100%; /* Prevents image from overflowing */
+    max-height: 100%; /* Ensures image fits within the box */
+    object-fit: contain; /* Ensures the full image is visible without cropping */
+  }
+  
+  
+  /* Adjust height for different screen sizes */
+  @media (max-width: 992px) {  /* Tablets and below */
+    .fixed-size-img {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 768px) {  /* Mobile screens */
+    .fixed-size-img {
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 576px) {  /* Extra small screens */
+    .fixed-size-img {
+      height: 120px;
+    }
+  }
+  
+  .fixed-box-washer {
+    width: 100%;         /* Makes the box responsive */
+    height: 350px;       /* Ensures all boxes are the same height */
+    display: flex;       /* Enables centering */
+    align-items: center; /* Centers image vertically */
+    justify-content: center; /* Centers image horizontally */
+    /* Adds a background if images don't fully cover the space */
+    border-radius: 10px; /* Optional rounded corners */
+    overflow: hidden; /* Ensures no extra spacing */
+  }
+  
+  .fixed-size-img-washer {
+    max-width: 100%; /* Prevents image from overflowing */
+    max-height: 100%; /* Ensures image fits within the box */
+    object-fit: contain; /* Ensures the full image is visible without cropping */
+  }
